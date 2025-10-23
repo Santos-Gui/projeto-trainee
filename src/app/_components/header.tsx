@@ -7,8 +7,8 @@ export function Header() {
             <div className="flex justify-between mx-8 py-2">
                 <img src={'public/icon.png'} alt="Logo"/>
                 <div className="flex space-x-2">
-                    <button className="p-1 border-2 bg-black border-orange text-orange font-bold px-5 hover:bg-orange-700">Log In</button>
-                    <button className="p-1 bg-orange text-white font-bold px-5 hover:bg-orange-700">Sign Up</button>
+                    <button className="p-1 border-2 bg-black border-orange text-orange font-bold px-5 hover:bg-orange-700 rounded-lg">Log In</button>
+                    <button className="p-1 bg-orange text-white font-bold px-5 hover:bg-orange-700 rounded-lg">Sign Up</button>
                 </div>
             </div>
             <div className="flex justify-between py-1 bg-orange px-4">
