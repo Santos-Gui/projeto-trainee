@@ -3,7 +3,7 @@
 export function Header() {
 
     return(
-        <header>
+        <header className="bg-black">
             <div className="flex justify-between mx-8 py-2">
                 <img src={'public/icon.png'} alt="Logo"/>
                 <div className="flex space-x-2">
