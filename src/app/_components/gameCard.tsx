@@ -3,7 +3,7 @@ export function GameCard({ name, image }: {
 }) {
     return (
         <div className="">
-            <img src={image} alt={name} className="max-h-3/4 rounded-2xl"/>
+            <img src={image} alt={name} className="rounded-2xl"/>
         </div>
     )
 }
