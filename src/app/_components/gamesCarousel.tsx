@@ -20,13 +20,13 @@ export function GamesCarousel() {
                 <div className="relative">
                     <div className="flex place-items-center w-full px-15 max-h-3/4">
                         <button onClick={() => setGame(currentGame < games.length - 1 ? currentGame + 1 : 0)} className="absolute right-15">
-                            <svg className="w-15 h-15 text-white dark:text-gray-800 rtl:rotate-180 m-1 p-5 bg-gray-300 rounded-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4" />
+                            <svg className="w-15 h-15 text-white dark:text-gray-800 m-1 p-5 bg-gray-300 rounded-full" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                <path stroke="currentColor" stroke-width="2" d="m1 9 4-4-4-4" />
                             </svg></button>
                         {games[currentGame]}
                         <button onClick={() => setGame(currentGame == 0 ? games.length - 1 : currentGame - 1)} className="absolute">
-                            <svg className="w-15 h-15 text-white dark:text-gray-800 rtl:rotate-180 m-1 p-5 bg-gray-300 rounded-full" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4" />
+                            <svg className="w-15 h-15 text-white dark:text-gray-800 m-1 p-5 bg-gray-300 rounded-full" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                                <path stroke="currentColor" stroke-width="2" d="M5 1 1 5l4 4" />
                             </svg>
                         </button>
                     </div>
