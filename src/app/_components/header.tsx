@@ -4,7 +4,7 @@ export function Header() {
   return (
     <header className="bg-black">
       <div className="mx-8 flex justify-between py-2">
-      <img src={} alt="Logo"/>
+      <img src="public/logo.png" alt="Logo"/>
         <div className="flex space-x-2">
           <button className="border-orange text-orange rounded-lg border-2 bg-black p-1 px-5 font-bold hover:bg-gray-800">
             Log In
