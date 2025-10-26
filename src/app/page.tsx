@@ -1,5 +1,7 @@
+"use client"
 import { Header } from "./_components/header";
 import { InfoCard } from "./_components/infoCard";
+import { GamesCarousel } from "./_components/gamesCarousel";
 
 export default function Home() {
     return(
@@ -20,7 +22,7 @@ export default function Home() {
                 <InfoCard reverse={true} image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimg.freepik.com%2Fpremium-vector%2Frating-review-illustration-with-men-women-give-stars_100333-158.jpg%3Fw%3D2000&f=1&nofb=1&ipt=b7e7b90dccbc28ed45ad99a7789b845cd93424cf07825bde6b1de511da002600" alt="Pessoas avaliando um serviço online" title="Avalie e Compartilhe" text="Compartilhe suas opiniões e experiências sobre os jogos que você ama! Deixe avaliações úteis e escreva críticas detalhadas para ajudar outros jogadores a tomarem suas decisões. Junte-se a discussões sobre o que torna cada jogo único e contribua para uma comunidade de gamers informados e apaixonados."/>
             </div>
 
-            
+            <GamesCarousel/>
         </main>
     )
 }
