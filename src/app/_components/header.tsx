@@ -1,4 +1,5 @@
 "use client"
+import Link from 'next/link';
 
 export function Header() {
   return (
@@ -20,12 +21,15 @@ export function Header() {
           <a className="hover:underline">News</a>
           <a className="hover:underline">Forum</a>
           <a className="hover:underline">Lists</a>
+          <Link href="/hallOfFame" className="hover:underline">
+             Hall of Fame
+          </Link>
           <a className="hover:underline">Help</a>
         </div>
         <input
           type="text"
           placeholder="Search Games"
-          className="rounded-lg border-1 border-black bg-white"
+          className="rounded-lg border border-black bg-white"
         />
       </div>
     </header>

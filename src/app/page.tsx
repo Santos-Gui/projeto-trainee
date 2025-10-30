@@ -3,6 +3,7 @@ import { Header } from "./_components/header";
 import { InfoCard } from "./_components/infoCard";
 import { GamesCarousel } from "./_components/gamesCarousel";
 import { GameCard } from "./_components/gameCard";
+import { Footer } from "./_components/footer";
 
 export default function Home() {
     return(
@@ -28,7 +29,8 @@ export default function Home() {
                     <GameCard name="Hollow Knight Silksong" image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic0.gamerantimages.com%2Fwordpress%2Fwp-content%2Fuploads%2F2025%2F04%2Fhollow-knight-silksong-cover.jpg&f=1&nofb=1&ipt=c1d6edf4a13ead35d471efd578d5687ceb09406555ea79a3baee084810f86ffe" />,
                     <GameCard name="Zelda Breath of the Wild" image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets.nintendo.com%2Fimage%2Fupload%2Fc_fill%2Cw_1200%2Fq_auto%3Abest%2Ff_auto%2Fdpr_2.0%2Fncom%2Fsoftware%2Fswitch%2F70010000000025%2F7137262b5a64d921e193653f8aa0b722925abc5680380ca0e18a5cfd91697f58&f=1&nofb=1&ipt=5528daa00c4b47c70cda34ce8481f9a8b274907a3bfc0b692fb247b7455bb9b0" />,
                     <GameCard name="Zelda Tears of the Kingdom" image="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fciberninjas.com%2Fwp-content%2Fuploads%2F2023%2F05%2Fzelda-totk-fondos-pc-portada.webp&f=1&nofb=1&ipt=1d4704038dce01ff474fe7a2dead9da4c865f66370153b8bd83cfaf26998abd5" />
-                ]}/>
+            ]}/>
+            <Footer/>    
         </main>
     )
 }
